@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+header {
+	background-color: #333;
+	padding: 10px;
+}
+
+header a {
+	color: white;
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+/* Responsive Design */ 
+@media (max-width: 600px) {
+	body {
+		background-color: lightyellow;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
+/* --- Color Improvements --- */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #d0e7ff;
+}
+
+header {
+	background-color: #1e3a5f;
+	padding: 15px;
+	text-align: center;
+}
+
+header a {
+	color: white;
+	margin: 0 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header a: hover {
+	color: #ffcc00;
+}
+
+h1 {
+	color: #1e3a5f;
+}
+
+h2 {
+	color: #333;
+} 
